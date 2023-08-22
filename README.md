@@ -18,10 +18,10 @@
 
 - `OpenAI Chatgpt` 因为一些原因，对接口访问添加了一系列的限制。具体可以看这里：[问题详情](https://github.com/transitive-bullshit/chatgpt-api#update-december-11-2022)，所以我改用官方自己的了，目前机器人可用。
 
-也可以进交流群,一起交流探讨相关问题和解决方案，添加的时候记得备注来意。
+也可以进交流群,一起交流探讨相关问题和解决方案，添加的时候记得备注来意。（如果项目对你有所帮助，也可以请我喝杯咖啡 ☕️ ~）
 
-| <img src="https://assets.fedtop.com/picbed/202302090947704.png" width="200px"> | <img src="https://assets.fedtop.com/picbed/202302091031048.png" width="200px"> |
-| --- | --- |
+| <img src="https://assets.fedtop.com/picbed/202302090947704.png" width="180px"> | <img src="https://raw.githubusercontent.com/wangrongding/image-house/master/202303151014249.JPG" width="180px"> | <img src="https://raw.githubusercontent.com/wangrongding/image-house/master/202302092216101.png" width="180px"> |
+| --- | --- | --- |
 
 ## 开发
 
@@ -63,7 +63,7 @@ npm run dev
 - 群聊，记得把机器人名称改成你自己微信号的名称，然后添加对应群聊的名称到白名单中，这样就可以自动回复群聊消息了。
 - 私聊，记得把需要自动回复的好友名称添加到白名单中，这样就可以自动回复私聊消息了。
 
-文件是 👉🏻 [sendMessage.js](./src/sendMessage.js)
+文件是 👉🏻 [sendMessage.js](./src/wechaty/sendMessage.js)
 
 ![](https://assets.fedtop.com/picbed/202212110942315.png)
 
